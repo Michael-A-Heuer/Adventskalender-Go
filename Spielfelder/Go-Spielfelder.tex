@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage[a4paper, nomarginpar, margin=0cm]{geometry}
+\usepackage{tikz}
+
+
+\newcommand{\gofield}[1]{
+	\begin{tikzpicture}[line width=1mm]
+		\def\step{23mm}
+		\def\lim{{(#1-1)*\step}}
+		\draw[step=\step] (0,0) grid (\lim,\lim);
+		\draw (0,0) rectangle (\lim,\lim);
+	\end{tikzpicture}
+}
+
+\begin{document}
+\pagenumbering{gobble}
+	\begin{center}
+		\vspace*{\fill}
+		\gofield{9}
+		\vspace*{\fill}
+	\end{center}
+	\clearpage
+	\begin{center}
+		\vspace*{\fill}
+		\gofield{7}
+		\vspace*{\fill}
+	\end{center}
+\end{document}
+
+%
+%Linienabstand	23,7 mm x 22,0 mm
+%Liniendicke	1 mm
+%Vorgabepunkte	keine
+%Ränder	1,4 cm an jeder Kante
+%Go-Steine	Durchmesser	21,5 mm bei Standardqualität
+%Anzahl	
+%für 19x19: 181 schwarze Steine, 180 weiße Steine
+%
+%für 9x9: 41 schwarze Steine, 40 weiße Steine
