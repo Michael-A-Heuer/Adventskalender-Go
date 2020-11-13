@@ -20,7 +20,7 @@ Die Spielfeldlinien haben hierbei einen Abstand von `22mm` bis `23mm` (denn die 
 
 Abhängig von der Spielfeldgröße braucht man verschiedene Mindestanzahlen an ⚫️ und ⚪️ Steinen.
 
-Für das **7x7** Spielfeld reicht **ein Adventskalender-Set** 
+Für das **7x7** Spielfeld reicht **ein Adventskalender-Set**. 
 Das 7x7 Spielfeld ist aber selbst für Anfänger schon klein und eine Partie ist schnell vorbei.
 
 Besser spielt man direkt mit dem **9x9** Spielfeld, wofür man **zwei Adventskalender-Sets** braucht.
